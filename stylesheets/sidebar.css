@@ -1,4 +1,4 @@
-nav {
+nav.sidebar {
   width: 300px;
   display: block;
   position: fixed;
@@ -6,22 +6,22 @@ nav {
   font-size: 15px;
   opacity: 0.3;
 }
-nav:hover {
+nav.sidebar:hover {
   opacity: 1;
 }
-nav a {
+nav.sidebar a {
   text-decoration: none;
   color: blue;
 }
-nav a:hover {
+nav.sidebar a:hover {
   color: black;
 }
-nav li {
+nav.sidebar li {
   margin: 6px 0;
 }
-nav h2 {
+nav.sidebar h2 {
   font-weight: bold;
 }
-nav ol > ol {
+nav.sidebar ol > ol {
   margin-left: 6px;
 }

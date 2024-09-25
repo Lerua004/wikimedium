@@ -44,7 +44,7 @@ article h1 + p {
   color: rgba(0, 0, 0, 0.4);
 }
 article h1 + p + p {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 article h2 {
   margin-top: 43px;
