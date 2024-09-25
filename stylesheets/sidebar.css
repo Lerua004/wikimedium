@@ -1,0 +1,27 @@
+nav {
+  width: 300px;
+  display: block;
+  position: fixed;
+  left: 20px;
+  font-size: 15px;
+  opacity: 0.3;
+}
+nav:hover {
+  opacity: 1;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+nav a:hover {
+  color: black;
+}
+nav li {
+  margin: 6px 0;
+}
+nav h2 {
+  font-weight: bold;
+}
+nav ol > ol {
+  margin-left: 6px;
+}
