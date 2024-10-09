@@ -1,5 +1,5 @@
 body.about {
-  /* background-image: url("../images/1440.png"); */
+  /* background-image: url('../images/1440.png'); */
   width: 1440px;
   height: 3120px;
   background-repeat: no-repeat;
@@ -22,24 +22,17 @@ body.about {
 }
 .about section div:nth-of-type(1) {
   width: 760px;
-  padding: 134px 120px 0;
 }
 .about section div:nth-of-type(2) {
   width: 680px;
 }
-.about section img {
-  margin-top: 80px;
-}
 .first-section div:nth-of-type(1) {
-  width: 760px;
   padding: 134px 120px 0;
 }
 .first-section div:nth-of-type(2) {
-  width: 680px;
   padding-top: 80px;
 }
 .second-section div:nth-of-type(1) {
-  width: 760px;
   padding-left: 24px;
 }
 .second-section div:nth-of-type(2) {
@@ -51,25 +44,19 @@ body.about {
 .third-section div:nth-of-type(2) {
   padding-top: 100px;
 }
-.about section div:nth-of-type(1) {
-  width: 760px;
-}
-.about section div:nth-of-type(2) {
-  width: 680px;
-}
 .fourth-section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 130px 300px;
 }
-
+.fourth-section h1,
 .fourth-section p {
   text-align: center;
 }
 .fourth-section a {
   color: grey;
-  border: 1px solid;
+  border: 1px solid #eee;
   border-radius: 6px;
   text-decoration: none;
   padding: 18px 24px;
@@ -77,13 +64,16 @@ body.about {
 }
 .fourth-section a.black-button {
   color: white;
-  background-color: black;
-  border: 1px solid;
+  background-color: #505050;
+  border: 1px solid #505050;
   padding: 18px 30px;
 }
 .fourth-section a:hover {
-  background-color: aliceblue;
+  background-color: #eee;
   transition: 0.2s;
+}
+.fourth-section a.black-button:hover {
+  background-color: black;
 }
 section.fourth-section div {
   margin-top: 60px;
